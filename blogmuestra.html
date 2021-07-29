@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+    <meta charset="utf-8">
+    <title>BLOG DE ANIMALES</title>
+</head>
+
+<body>
+    <div>
+        <h1>ANIMALITOS FELICES</h1>
+        <img src="https://www.recreoviral.com/wp-content/uploads/2014/08/animal-que-rie-2.jpg" width="300" alt="Animalitos felices">
+
+        <br>
+        <p>Los animalitos felices son aquellos que reciben amor, cuidados, alimentación y abrigo...</p>
+        <p>Para mas información sobre tenencia responsable, visita el siguiente link</p>
+        <a href="http://www.google.com">Tenencia Responsable de Mascotas - Subdere</a>
+        <br>
+        <p>Para mayor contenido, visita las siguientes secciones:</p>
+        <ul>
+            <li>
+                <a href="Alimentacion.html">Alimentación</a>
+            </li>
+
+            <li>
+                <a href="Juegos.html">Cómo jugar con tu mascota</a>
+            </li>
+
+            <li>
+                <a href="Cuidados.html">Cuidados especiales</a>
+            </li>
+        </ul>
+
+        <p>Algunas especies que podemos encontrar son:</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ESPECIE</th>
+                    <th>SEXO</th>
+                    <th>RAZA</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>canino</td>
+                    <td>macho</td>
+                    <td>poodle</td>
+                </tr>
+                <tr>
+                    <td>felino</td>
+                    <td>hembra</td>
+                    <td>siames</td>
+                </tr>
+                <tr>
+                    <td>felino</td>
+                    <td>macho</td>
+                    <td>pelo corto</td>
+                </tr>
+
+            </tbody>
+        </table>
+        <h4>Queremos saber tus preferencias de animales!</h4>
+        <h5>Responde la siguiente encuesta</h5>
+
+    </div>
+
+    <form action="submit" method="post">
+        <p>Qué animal te gusta mas? Selecciona:</p>
+        <select name="tipoanimal">
+                <option value="gato">Gato</option>
+                <option value="perro">Perro</option>
+                <option value="otro">Otro</option>
+            </select>
+        <br>
+        <br>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido">
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+        <br>
+        <br>
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="femenino">Femenino</label>
+        <input type="radio" id="femenino" name="genero" value="femenino">
+        <label for="prefiero-no-decir">Prefiero no decir</label>
+        <input type="radio" id="prefiero-no-decir" name="genero" value="prefiero-no-decir">
+        <br>
+        <br>
+        <p>Qué información te gustaría recibir?</p>
+
+        <label for="Servicios">Servicios Veterinarios</label>
+        <input type="checkbox" id="Servicios" name="color" value="Servicios">
+        <br>
+        <label for="PetShop">Tienda de Mascotas</label>
+        <input type="checkbox" id="PetShop" name="color" value="PetShop">
+        <br>
+        <label for="Peluqueria">Peluquería</label>
+        <input type="checkbox" id="Peluqueria" name="color" value="Peluqueria">
+        <br>
+        <br>
+
+        <input type="submit" value="Enviar Información">
+
+    </form>
+</body>
+
+</html>
