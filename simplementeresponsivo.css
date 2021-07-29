@@ -1,0 +1,40 @@
+* {
+    padding: 15px;
+}
+
+#heeder {
+    background-color: rgb(110, 113, 116);
+}
+
+#mail {
+    background-color: rgb(25, 123, 197);
+}
+
+#footer {
+    background-color: rgb(94, 241, 204);
+}
+
+#body {
+    background-color: #0e0d0d;
+}
+
+@media only screen and (max-width: 480px) {
+    #tablet2,
+    #desktop3 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width:1023px) {
+    #phone1,
+    #desktop3 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #phone1,
+    #tablet2 {
+        display: none;
+    }
+}

@@ -1,0 +1,30 @@
+* {
+    outline: dotted rgb(0, 132, 255) 1px;
+}
+
+#partearriba {
+    background-color: rgb(0, 255, 115);
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+#partealmedio {
+    background-color: rgb(209, 198, 45);
+    width: 100%;
+    min-height: 66px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+#parteabajo {
+    background-color: rgb(110, 37, 81);
+    width: 100%;
+    min-height: 40px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+}
