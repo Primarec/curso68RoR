@@ -1,0 +1,27 @@
+<! DOCTYPE html >
+< html lang=" en ">
+
+    < cabeza>
+        < meta charset=" UTF-8 ">
+            < meta http-equiv=" X-UA-Compatible " content=" IE = edge ">
+                < meta name=" viewport " content=" width = device-width, initial-scale = 1.0 ">
+                    < título> Ejercicio de Ninja Desapareciendo </ título>
+                    < script src=" https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js "> </ script>
+                    < guión>
+                        $ ( documento ) . listo ( función ( ) { // agregar imagenes para ( sea i = 1 ; i
+                        <=8 ; i ++ ) { $ ( '#contenedor' ) . append ( '<img src = imagenes / tux_ninja.png alt = Tux Ninja>' ) ; } ; $ ( 'img' ) . addClass ( 'ninja' ) ;
+                        // añadir boton $ ( '#contenedor' ) . append ( '<br> <button> Restaurar </button>' ) ; // desaparece la imagen $ ( 'img' ) . haga clic en ( función ( ) { $ ( esto ) . fadeOut ( ) ; } ) ; // accion para aparecer las imagenes $ (
+                            'botón' ) . haga clic en ( función ( ) { $ ( 'img' ) . fadeIn ( 3000 ) ; } ) ; // fin jquery } ) ; </ script>
+                            < estilo>
+                                . ninja { ancho : 200 px ; borde : 1 px negro sólido; margen : 1 % ; } # contenedor { ancho : 900 px ; }
+                            </ estilo>
+                    </ cabeza>
+
+                    < cuerpo>
+                        < h1> JQuery - asignación 1 </ h1>
+                        < div id=" contenedor ">
+
+                        </ div>
+                    </ cuerpo>
+
+                </ html>
